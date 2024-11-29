@@ -17,9 +17,11 @@ body{
     position: relative;
 }
 header{
-    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
     border-bottom: 2px solid var(--secondaryColor);
-    padding: 15px;
+    padding: 15px 0px;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -73,11 +75,9 @@ svg{
     height: 40px;
     border-radius: 5px;
     padding-left: 10px;
+    padding-right: 50px;
     caret-color: var(--accentColor);
     color: var(--textColor);
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    padding-right: 50px;
 }
 #SearchBar:focus {
     outline:none;
@@ -87,6 +87,7 @@ svg{
     height: 42px;
     position: absolute;
     right: 0;
+    border-radius: 10px;
 }
 #SearchBtn:active{
     background-color: var(--secondaryColor);
